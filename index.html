@@ -8,11 +8,21 @@
 </head>
 <body>
     <h1>Simple Counter</h1>
+
     <p>My first counter project with JavaScript.</p>
-    <div id="counter">
-        <button name="subtrair" class="button2" onclick="decrement()">-</button>
-        <span id="currentNumber">0</span>
-        <button name="adicionar" class="button2" onclick="increment()">+</button>
+    <div class ="button">
+    <a href="#" class="btn" onclick="decrement()">
+     <i class="fas fa-backward">- </i>
+    </a>
+        <a href="#" class="btn" onclick="reset()">
+    <i class="fas fa-play">0</i>
+    </a>
+        <a href="#" class="btn" onclick="increment()">
+     <i class="fas fa-forward"> + </i>
+    </a>
+    </div>
+    <div class ="frame">
+            <span id="currentNumber">0</span>
     </div>
     <script src="assets/scripts.js"></script>
 </body>
